@@ -1,0 +1,87 @@
+* {
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+
+body {
+  background: linear-gradient(to bottom, #6666ff 0%, #ff99ff 100%) fixed;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.score-board {
+  margin: 20px auto;
+  width: 250px;
+  border: 5px solid white;
+  border-radius: 3px;
+  font-size: 46px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  position: relative;
+  
+}
+
+.label {
+  background: #EE615D;
+  font-size: 14px;
+  font-weight: bolder;
+  color: white;
+
+}
+ #user {
+   position: absolute;
+   top: 20px;
+   left: -20px;
+   border: 2px;
+   width: 35px;
+   font-size: 12px;
+ }
+
+ #comp {
+   position: absolute;
+   top: 20px;
+   right: -20px;
+   border: 2px;
+   width: 35px;
+   font-size: 12px;
+ }
+
+.choices {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.choice  {
+  display: inline-block;
+  margin: 0 15px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  padding-top: 20px;
+}
+
+.choice:hover {
+  background:  white;
+  cursor: pointer;
+  border: 3px solid black;
+}
+
+#action {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bolder;
+  color: white;
+  padding-top: 15px;
+}
