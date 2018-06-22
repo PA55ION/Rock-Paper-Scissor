@@ -59,6 +59,8 @@ h3 {
 .choices {
   text-align: center;
   padding-top: 20px;
+  padding-bottom: 3px;
+
 }
 
 .choice  {
@@ -69,13 +71,12 @@ h3 {
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
-  padding-top: 20px;
+  background: white;
 }
 
 .choice:hover {
-  background:  white;
   cursor: pointer;
-  border: 3px solid black;
+  border: 3px solid aquamarine;
 }
 
 #action {
